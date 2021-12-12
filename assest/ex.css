@@ -5,6 +5,15 @@ body{
 }
 
 .line{
-    border-bottom: 10px;
-    
+    border-top: 40px solid black;
+}
+
+#logo{
+    font-weight: bold;
+    text-align: right;
+    position: relative;
+    bottom: 60px;
+    font-size: 25px;
+    color: white;
+    padding-right: 10px;
 }
