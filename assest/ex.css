@@ -7,13 +7,58 @@ body{
 .line{
     border-top: 40px solid black;
 }
-
-#logo{
-    font-weight: bold;
-    text-align: right;
+.flexbody{
+    display: flex;
+}
+.menu{
+    width: 40vh;
+}
+.content{
+    width: 60vh;
+}
+.topmenu{
+    border-bottom: 1px solid rgb(204, 200, 200);
+}
+#welcome{
+    display: inline-block;
     position: relative;
-    bottom: 60px;
-    font-size: 25px;
+    bottom: 50px;
+}
+#profile{
+    width: 60px;
+    height: 60px;
+    padding: 20px; 
+}
+
+.menuaside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.menuaside p{
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.menuaside a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+.menuaside a:hover{
+    background-color: #2196F3;
     color: white;
-    padding-right: 10px;
+}
+
+.menuaside a#active{
+    background-color: #2196F3;
+    color: white;
+}
+
+#pcontent{
+    text-align: left;
 }
