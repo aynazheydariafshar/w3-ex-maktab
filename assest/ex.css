@@ -13,8 +13,10 @@ body{
 .menu{
     width: 40vh;
 }
-.content{
-    width: 60vh;
+.contentmain{
+    width: 100%;
+    background-color: #F1F1F1;
+    height: 100vw;
 }
 .topmenu{
     border-bottom: 1px solid rgb(204, 200, 200);
@@ -61,4 +63,39 @@ body{
 
 #pcontent{
     text-align: left;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contetside{
+    width: 300px;
+    height: 150px;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+}
+
+#mycontent{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+#red{
+    background-color: #F44336;
+}
+
+#blue{
+    background-color: #2196F3;
+}
+
+#green{
+    background-color: #009688;
+}
+
+#yellow{
+    background-color: #FF9800;
 }
